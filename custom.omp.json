@@ -6,8 +6,8 @@
       "newline": true,
       "segments": [
         {
-          "background": "#FEF5ED",
-          "foreground": "#011627",
+          "foreground": "#1e1e2e",
+          "background": "#89dceb",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
           "template": "{{ .UserName }}@{{ .HostName }}",
@@ -21,8 +21,8 @@
             "style": "roundrock",
             "threshold": 0
           },
-	  "foreground": "#100e23",
-	  "background": "#906cff",
+	  "background": "#1e1e2e",
+	  "foreground": "#cba6f7",
 	  "template": "{{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ end }}"
 	},
         {
@@ -45,7 +45,7 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#17D7A0",
+          "background": "#a6e3a1",
           "foreground": "#011627",
           "leading_diamond": "\ue0b2",
           "properties": {
